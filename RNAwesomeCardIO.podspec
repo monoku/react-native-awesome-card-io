@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.name             = "RNAwesomeCardIO"
   s.version          = package["version"]
   s.summary          = package["description"]
+  s.static_framework = true
   s.requires_arc     = true
   s.license          = { :type => package["license"] }
   s.homepage         = package["homepage"]
